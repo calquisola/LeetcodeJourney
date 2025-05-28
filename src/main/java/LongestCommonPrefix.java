@@ -3,10 +3,7 @@ import java.util.Arrays;
 public class LongestCommonPrefix {
     public static void main(String[] args) {
         String[] input = {"flower","flow","flight"};
-        //System.out.println(longestCommonPrefix(input));
-        String f = "flower";
-        System.out.println(f.length());
-        System.out.println(f.substring(0, f.length()));
+        System.out.println(longestCommonPrefix(input));
 
     }
     public static String longestCommonPrefix(String[] strs) {

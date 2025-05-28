@@ -21,5 +21,7 @@ public class FizzBuzz {
                 result.add(i + "");
             }
         }
+
+        return result;
     }
 }
